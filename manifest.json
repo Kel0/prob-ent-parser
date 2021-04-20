@@ -1,0 +1,12 @@
+{
+    "name": "ENT-PROB-PARSER",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://prob-ent.testcenter.kz/*"],
+            "js": ["extension.js"]
+        }
+    ],
+    "web_accessible_resources": ["<all_urls>"]
+}
